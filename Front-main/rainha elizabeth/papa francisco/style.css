@@ -6,6 +6,10 @@ body{
     max-width: 150px;
 }
 
+.btn{
+  --bs-btn-color: var(--bs-black);
+  --bs-btn-bg: #B5B1C9;
+}
 
 .heart {
     --c: yellow;
