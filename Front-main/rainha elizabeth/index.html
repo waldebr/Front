@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+
+    <nav class="navbar" style="background-color: #B5B1C9;" data-bs-theme="light">
+        <div class="container d-flex justify-content-center">
+            <a class="navbar-brand" href="#">
+                <img src="logoog.png" alt="Sua-Logo" class="img-fluid">
+            </a>
+        </div>
+    </nav>
+
+    <div class="floating-prompt border shadow p-4 " style="background-color: #B5B1C9;" >
+        <h5>Conte como está se sentindo hoje?</h5>
+        <div class="mb-3">
+            <label for="floatingTextarea" class="form-label visually-hidden">Como você está se sentindo?</label>
+            <textarea class="form-control" id="floatingTextarea" style="background-color: #D7D8EC;" 
+                rows="3"> .. .. </textarea>
+        </div>
+        <div class="d-flex justify-content-center" >
+            <button type="button" class="btn btn-light"  >Pronto</button>
+        </div>
+    </div>
+
+    <!-- <style>
+        .floating-prompt {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1050;
+            /* Garante que fique acima de outros elementos (ajuste se necessário) */
+            width: auto;
+            /* Ajuste a largura conforme necessário */
+            height: auto;
+            max-height: 90%;
+            max-width: 90%;
+            /* Para responsividade em telas menores */
+            border-radius: 18px;
+        }
+    </style> -->
+
+    <footer class="text-center py-3 fixed-bottom" style="background-color: #B5B1C9;">
+        <p class="mb-0">© 2025 ELLO.Todos os direitos Reservados</p>
+    </footer>
+</body>
+
+</html>
