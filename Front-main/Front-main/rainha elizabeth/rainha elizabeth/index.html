@@ -25,17 +25,16 @@
         </div>
     </nav>
 
-    <div class="mb-3">
-    <h5>O que gostaria de fazer hoje?</h5>
-    </div>
-    <label for="floatingTextarea" class="form-label visually-hidden">O que gostaria de fazer hoje?</label>
-    <div class="heart-box border shadow p-4" style="background-color: #B5B1C9;">
-        <div>
-            <div class="d-flex justify-content-center align-items-center">
-              <button type="button" class="btn btn-light me-2">LER</button>
-              <button type="button" class="btn btn-light">ESCREVER</button>
-            </div>
-          </div>
+    <div class="floating-prompt border shadow p-4 " style="background-color: #B5B1C9;" >
+        <h5>Conte como está se sentindo hoje?</h5>
+        <div class="mb-3">
+            <label for="floatingTextarea" class="form-label visually-hidden">Como você está se sentindo?</label>
+            <textarea class="form-control" id="floatingTextarea" style="background-color: #D7D8EC;" 
+                rows="3"> .. .. </textarea>
+        </div>
+        <div class="d-flex justify-content-center" >
+            <button type="button" class="btn btn-light"  >Pronto</button>
+        </div>
     </div>
 
     <!-- <style>

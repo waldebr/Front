@@ -1,0 +1,45 @@
+body{
+    background-color: #f8faf8;
+}
+
+.navbar-brand img{
+    max-width: 150px;
+}
+
+.floating-prompt {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+    /* Garante que fique acima de outros elementos (ajuste se necessário) */
+    width: auto;
+    /* Ajuste a largura conforme necessário */
+    height: auto;
+    max-height: 90%;
+    max-width: 90%;
+    /* Para responsividade em telas menores */
+    border-radius: 18px;
+}
+.card {
+    border-radius: 10px; /* Bordas arredondadas para os cards */
+    border: none; /* Remove a borda padrão do card */
+}
+
+.card-title {
+    color: #343a40; /* Cor do título */
+}
+
+.card-subtitle {
+    color: #6c757d; /* Cor do subtítulo */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Cor primária do botão */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
